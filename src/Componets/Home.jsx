@@ -67,7 +67,7 @@ function Home() {
                             </h2>
 
                             <p className="text-gray-400 text-sm md:text-base leading-relaxed max-w-xl mx-auto md:mx-0">
-                                8+ months of experience building production-level applications for real clients across CRM, healthcare, and e-commerce.
+                                1+ Year of experience building production-level applications for real clients across Educare, and e-commerce.
                             </p>
 
                             <div className="flex flex-col gap-4 items-center md:items-start">

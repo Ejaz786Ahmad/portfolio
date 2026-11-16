@@ -4,72 +4,43 @@ import { motion } from "framer-motion";
 export default function Experience() {
   const experiences = [
     {
-      company: "MindStocs",
-      role: "Full Stack Developer",
-      duration: "07 Aug 2026 – Present",
+      company: "Yahweh Software Solutions",
+      role: "Node.js Developer (Intern)",
+      duration: "Sep 2025 – Apr 2026",
       description:
-        "Working on healthcare SaaS platforms and business management applications, developing frontend interfaces, backend APIs, and database integrations for web and mobile applications.",
+        "Worked on Edudibon School ERP developing backend functionality across multiple modules, HRMS features, and scheduled workflows.",
       impact:
-        "Building integrated healthcare and business management solutions",
+        "Completed 4 modules independently with role-based access control",
       highlights: [
-        "Developing a multi-tenant hospital and healthcare appointment booking SaaS platform",
-        "Working on online and offline doctor consultations and prescription management workflows",
-        "Developing employee management and CRM modules",
-        "Building and integrating REST APIs with Node.js, Express.js, and Supabase PostgreSQL",
-        "Developed the website for Stynaco, a newly registered company under the MindStocs umbrella",
+        "Project: Edudibon School ERP",
+        "Completed 4 modules independently — Exam Management, Communication, Visitor Management, and Disciplinary",
+        "Contributed to HRMS functionality for employee management, attendance tracking, and leave management",
+        "Implemented Permit.io for role-based access control and Cron Jobs for scheduled workflows",
       ],
       tech: [
-        "React.js",
-        "React Native",
         "Node.js",
         "Express.js",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Supabase",
-        "Redis",
+        "MongoDB",
+        "Cron Jobs",
+        "Permit.io",
       ],
     },
     {
-      company: "Curo24",
-      role: "Frontend Developer",
-      duration: "Sep 2025 – 30 Jun 2026",
+      company: "Internshala",
+      role: "MERN Stack Developer Trainee",
+      duration: "May 2024 – Aug 2024",
       description:
-        "Worked on healthcare web and mobile applications focused on medicine ordering, laboratory services, prescription handling, and operational efficiency.",
+        "MERN stack development training building web applications and implementing backend best practices.",
       impact:
-        "Improved healthcare service accessibility and streamlined operational workflows",
+        "Implemented JWT authentication and REST API best practices",
       highlights: [
-        "Developed healthcare application features for medicine ordering and lab bookings",
-        "Implemented prescription upload and order processing workflows",
-        "Integrated nearby pharmacy features for medicine fulfillment",
-        "Worked on laboratory test booking and sample collection workflows",
-        "Developed field executive features for operational tracking and monitoring",
+        "Developed MERN stack projects and implemented JWT authentication and REST API best practices",
       ],
       tech: [
         "React.js",
-        "React Native",
-        "Tailwind CSS",
-        "REST APIs",
-      ],
-    },
-    {
-      company: "RDVision",
-      role: "Frontend Developer",
-      duration: "2024 – 2025",
-      description:
-        "Developed business-focused web applications, including CRM systems, recruitment platforms, and e-commerce solutions.",
-      impact:
-        "Supported business operations, sales tracking, and recruitment workflows",
-      highlights: [
-        "Built a multi-panel CRM with role-based access for different users",
-        "Developed online quiz and recruitment platform features",
-        "Worked on the SwiftlyMeds e-commerce platform",
-        "Integrated REST APIs and developed responsive user interfaces",
-      ],
-      tech: [
-        "React.js",
-        "JavaScript",
-        "Tailwind CSS",
-        "REST APIs",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
       ],
     },
   ];

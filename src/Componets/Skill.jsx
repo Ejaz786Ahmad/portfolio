@@ -33,16 +33,24 @@ export default function Skill() {
           icon: <FaReact className="text-cyan-400 text-2xl" />,
         },
         {
-          name: "JavaScript",
-          icon: <SiJavascript className="text-yellow-400 text-2xl" />,
-        },
-        {
           name: "Redux",
           icon: <SiRedux className="text-purple-400 text-2xl" />,
         },
         {
+          name: "HTML5",
+          icon: <SiJavascript className="text-orange-400 text-2xl" />,
+        },
+        {
+          name: "CSS3",
+          icon: <SiTailwindcss className="text-blue-400 text-2xl" />,
+        },
+        {
           name: "Tailwind CSS",
           icon: <SiTailwindcss className="text-sky-400 text-2xl" />,
+        },
+        {
+          name: "Responsive UI/UX",
+          icon: <FaReact className="text-teal-400 text-2xl" />,
         },
       ],
     },
@@ -62,21 +70,33 @@ export default function Skill() {
           icon: <FaNodeJs className="text-green-400 text-2xl" />,
         },
         {
+          name: "JWT Authentication",
+          icon: <SiExpress className="text-yellow-400 text-2xl" />,
+        },
+        {
+          name: "Razorpay",
+          icon: <SiRedis className="text-blue-400 text-2xl" />,
+        },
+        {
+          name: "BullMQ",
+          icon: <SiRedis className="text-red-400 text-2xl" />,
+        },
+        {
           name: "Redis",
           icon: <SiRedis className="text-red-400 text-2xl" />,
+        },
+        {
+          name: "Cron Jobs",
+          icon: <FaNodeJs className="text-green-400 text-2xl" />,
         },
       ],
     },
     {
-      title: "Mobile Development",
+      title: "Languages",
       skills: [
         {
-          name: "React Native CLI",
-          icon: <FaReact className="text-cyan-400 text-2xl" />,
-        },
-        {
-          name: "Expo",
-          icon: <SiExpo className="text-white text-2xl" />,
+          name: "JavaScript (ES6+)",
+          icon: <SiJavascript className="text-yellow-400 text-2xl" />,
         },
       ],
     },
@@ -86,6 +106,10 @@ export default function Skill() {
         {
           name: "MongoDB",
           icon: <SiMongodb className="text-green-400 text-2xl" />,
+        },
+        {
+          name: "Mongoose",
+          icon: <SiMongodb className="text-emerald-400 text-2xl" />,
         },
         {
           name: "PostgreSQL",
@@ -109,16 +133,24 @@ export default function Skill() {
           icon: <FaGithub className="text-white text-2xl" />,
         },
         {
-          name: "Vercel",
-          icon: <SiVercel className="text-white text-2xl" />,
+          name: "Postman",
+          icon: <SiRender className="text-orange-400 text-2xl" />,
         },
         {
-          name: "Render",
-          icon: <SiRender className="text-purple-400 text-2xl" />,
-        },
-        {
-          name: "Docker",
+          name: "Permit.io",
           icon: <SiDocker className="text-sky-400 text-2xl" />,
+        },
+        {
+          name: "API Testing",
+          icon: <FaNodeJs className="text-green-400 text-2xl" />,
+        },
+        {
+          name: "RBAC",
+          icon: <SiVercel className="text-cyan-400 text-2xl" />,
+        },
+        {
+          name: "CI/CD",
+          icon: <SiDocker className="text-blue-400 text-2xl" />,
         },
       ],
     },

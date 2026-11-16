@@ -32,9 +32,9 @@ export default function About() {
       name: "React.js",
       category: "Frontend Development",
       icon: <FaReact className="text-cyan-400 text-2xl shrink-0" />,
-      experience: "1.6+ Years",
-      started: "2024",
-      projects: "10+ modules / projects",
+      experience: "1.5+ years",
+      started: "2025",
+      projects: "6+ modules / projects",
       level: 85,
       description:
         "Developed responsive web applications using reusable components, React Hooks, API integration, routing, and state management. Worked on business dashboards, management systems, and production-oriented user interfaces.",
@@ -43,19 +43,37 @@ export default function About() {
       name: "JavaScript",
       category: "Frontend Development",
       icon: <SiJavascript className="text-yellow-400 text-2xl shrink-0" />,
-      experience: "Used with React",
-      started: "2023",
+      experience: "2+ years",
+      started: "2024",
       projects: "Multiple projects",
       level: 75,
       description:
         "Used JavaScript ES6+ features, array methods, objects, promises, async/await, and API handling while developing web and mobile applications.",
     },
     {
+      name: "Java",
+      category: "Normal Coding",
+      icon: <SiJavascript className="text-yellow-400 text-2xl shrink-0" />,
+      experience: "5+ months",
+      started: "2024",
+      level: 40,
+    },
+
+    {
+      name: "Python",
+      category: "Normal Coding",
+      icon: <SiJavascript className="text-yellow-400 text-2xl shrink-0" />,
+      experience: "2+ months",
+      started: "2026",
+      level: 25,
+    },
+
+    {
       name: "Redux",
       category: "Frontend Development",
       icon: <SiRedux className="text-purple-400 text-2xl shrink-0" />,
       experience: "Hands-on experience",
-      started: "2023",
+      started: "2025",
       projects: "Multiple applications",
       level: 70,
       description:
@@ -65,8 +83,8 @@ export default function About() {
       name: "Tailwind CSS",
       category: "Frontend Development",
       icon: <SiTailwindcss className="text-sky-400 text-2xl shrink-0" />,
-      experience: "1.6+ Years",
-      started: "2023",
+      experience: "1+ Years",
+      started: "2024",
       projects: "Multiple projects",
       level: 90,
       description:
@@ -79,9 +97,9 @@ export default function About() {
       category: "Backend Development",
       icon: <FaNodeJs className="text-green-500 text-2xl shrink-0" />,
       experience: "Hands-on experience",
-      started: "2024",
+      started: "2025",
       projects: "Backend APIs",
-      level: 45,
+      level: 80,
       description:
         "Working with server-side JavaScript, environment variables, asynchronous operations, API integrations, error handling, and backend application structure.",
     },
@@ -90,9 +108,9 @@ export default function About() {
       category: "Backend Development",
       icon: <SiExpress className="text-gray-200 text-2xl shrink-0" />,
       experience: "Hands-on experience",
-      started: "2024",
+      started: "2025",
       projects: "REST API development",
-      level: 45,
+      level: 80,
       description:
         "Building REST APIs with routes, controllers, middleware, request validation, and centralized error handling using Express.js.",
     },
@@ -103,33 +121,9 @@ export default function About() {
       experience: "Practical exposure",
       started: "2026",
       projects: "Backend integrations",
-      level: 30,
+      level: 40,
       description:
         "Exploring Redis for low-latency data access, caching, and supporting backend workflows that benefit from fast in-memory storage.",
-    },
-
-    // MOBILE
-    {
-      name: "React Native CLI",
-      category: "Mobile Development",
-      icon: <FaReact className="text-cyan-400 text-2xl shrink-0" />,
-      experience: "Mobile development",
-      started: "2024",
-      projects: "Mobile applications",
-      level: 70,
-      description:
-        "Developing cross-platform mobile applications with reusable components, navigation, API integration, device features, and responsive mobile layouts using React Native CLI.",
-    },
-    {
-      name: "Expo",
-      category: "Mobile Development",
-      icon: <SiExpo className="text-white text-2xl shrink-0" />,
-      experience: "Hands-on experience",
-      started: "2026",
-      projects: "Mobile application development",
-      level: 60,
-      description:
-        "Working with Expo, Expo Router, development builds, app configuration, and device capabilities to build and test React Native applications.",
     },
 
     // DATABASE AND SERVICES
@@ -138,9 +132,9 @@ export default function About() {
       category: "Database & Services",
       icon: <SiMongodb className="text-green-400 text-2xl shrink-0" />,
       experience: "Foundational experience",
-      started: "2023",
+      started: "2024",
       projects: "Database integrations",
-      level: 40,
+      level: 70,
       description:
         "Learning and working with document-based data storage, collections, queries, schemas, and database integration in Node.js applications.",
     },
@@ -150,8 +144,7 @@ export default function About() {
       icon: <SiPostgresql className="text-sky-400 text-2xl shrink-0" />,
       experience: "Hands-on experience",
       started: "2026",
-      projects: "Healthcare backend",
-      level: 55,
+      level: 50,
       description:
         "Working with relational data, SQL queries, tables, constraints, relationships, and schema migrations for backend applications.",
     },
@@ -161,7 +154,6 @@ export default function About() {
       icon: <SiSupabase className="text-emerald-400 text-2xl shrink-0" />,
       experience: "Hands-on experience",
       started: "2026",
-      projects: "MindStocs backend",
       level: 60,
       description:
         "Using Supabase for PostgreSQL database access, authentication, Row Level Security policies, database functions, and schema migrations.",
@@ -173,9 +165,9 @@ export default function About() {
       category: "Tools & Deployment",
       icon: <FaGitAlt className="text-orange-400 text-2xl shrink-0" />,
       experience: "Development workflow",
-      started: "2023",
+      started: "2024",
       projects: "Multiple repositories",
-      level: 70,
+      level: 65,
       description:
         "Using Git for version control, commits, branches, merging, and maintaining project history during development.",
     },
@@ -184,7 +176,7 @@ export default function About() {
       category: "Tools & Deployment",
       icon: <FaGithub className="text-white text-2xl shrink-0" />,
       experience: "Development workflow",
-      started: "2023",
+      started: "2024",
       projects: "Multiple repositories",
       level: 75,
       description:
@@ -197,7 +189,7 @@ export default function About() {
       experience: "Deployment experience",
       started: "2024",
       projects: "Web applications",
-      level: 65,
+      level: 70,
       description:
         "Deploying frontend applications, configuring environment variables, connecting repositories, and troubleshooting production build issues.",
     },
@@ -206,9 +198,9 @@ export default function About() {
       category: "Tools & Deployment",
       icon: <SiRender className="text-purple-400 text-2xl shrink-0" />,
       experience: "Deployment exposure",
-      started: "2026",
+      started: "2025",
       projects: "Backend deployment",
-      level: 35,
+      level: 50,
       description:
         "Working with backend deployment concepts, production environment variables, service configuration, and application logs.",
     },
@@ -217,7 +209,7 @@ export default function About() {
   const groupedSkills = [
     "Frontend Development",
     "Backend Development",
-    "Mobile Development",
+    "Normal Coding",
     "Database & Services",
     "Tools & Deployment",
   ];
@@ -270,11 +262,6 @@ export default function About() {
               </p>
             </div>
 
-            <div className="rounded-lg border border-purple-400/40 bg-purple-500/10 px-4 py-3">
-              <p className="text-sm font-semibold text-purple-300">
-                Mobile Development
-              </p>
-            </div>
 
             <div className="rounded-lg border border-green-400/40 bg-green-500/10 px-4 py-3">
               <p className="text-sm font-semibold text-green-300">
